@@ -490,6 +490,19 @@
 
     <!-- template js -->
     <script src="assets/js/digihub.js"></script>
+    <script>
+        // Example form validation using jQuery
+        $(document).ready(function () {
+          $('#myForm').submit(function (event) {
+            var form = $(this);
+            if (form[0].checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.addClass('was-validated');
+          });
+        });
+      </script>
 </body>
 
 </html>
