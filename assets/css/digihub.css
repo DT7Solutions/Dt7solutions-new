@@ -4440,9 +4440,9 @@ i {
     padding-bottom: 80px;
   }
 }
-.about-one__row {
+/* .about-one__row {
   align-items: center;
-}
+} */
 @media (min-width: 992px) {
   .about-one__row {
     justify-content: center;
@@ -4524,9 +4524,9 @@ i {
   display: grid;
   grid-template-columns: 65px auto;
   align-items: center;
-  padding: 41px 30px 34px;
-  background-color: var(--digihub-white, #FFFFFF);
-  box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05);
+  padding: 21px 30px 14px;
+  /* background-color: var(--digihub-white, #FFFFFF); */
+  /* box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.05); */
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -6223,8 +6223,8 @@ i {
 # Team Page
 -------------------------------------*/
 .team-page {
-  padding-top: 80px;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
+  padding-top: 120px;
   background-color: var(--digihub-white, #FFFFFF);
 }
 @media (max-width: 991px) {
@@ -8952,3 +8952,16 @@ i {
   color: var(--digihub-base, #EA4723);
 }
 /*# sourceMappingURL=digihub.css.map */
+.quote-section {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-image: url(../images/award/trail-logos.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 1;
+}
+.black > li > a{
+  color: var(--digihub-primary, #1A1A1A)!important;
+
+}
