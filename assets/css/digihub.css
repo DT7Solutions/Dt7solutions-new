@@ -8965,3 +8965,10 @@ i {
   color: var(--digihub-primary, #1A1A1A)!important;
 
 }
+
+.black  li.dropdown > a > i.fa-angle-down, .stricky-header .main-menu__list > li.dropdown > a > i.fa-angle-down {
+  color: var(--digihub-primary, #1A1A1A)!important;
+}
+.form-background-color{
+  background-color:#F4A261;
+}
